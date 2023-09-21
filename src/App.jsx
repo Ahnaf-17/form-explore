@@ -1,7 +1,8 @@
 
 import './App.css'
-import SimpleForm from './components/SimpleForm/SimpleForm'
-import StateForm from './components/StateForm/StateForm'
+import ReferenceForm from './components/ReferenceForm/ReferenceForm'
+// import SimpleForm from './components/SimpleForm/SimpleForm'
+// import StateForm from './components/StateForm/StateForm'
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
     <>
     <h1>React + Vite</h1>
       {/* <SimpleForm></SimpleForm> */}
-      <StateForm></StateForm>
+      {/* <StateForm></StateForm> */}
+      <ReferenceForm></ReferenceForm>
     </>
   )
 }
